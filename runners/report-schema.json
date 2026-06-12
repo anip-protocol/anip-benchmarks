@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ANIP Benchmark Report",
+  "type": "object",
+  "required": ["benchmark", "lane", "run", "summary", "questions"],
+  "properties": {
+    "benchmark": { "type": "string" },
+    "lane": { "type": "string", "enum": ["anip", "mcp", "raw-tools", "skills-recipes"] },
+    "run": {
+      "type": "object",
+      "required": ["id", "started_at", "model", "repo_commit"],
+      "properties": {
+        "id": { "type": "string" },
+        "started_at": { "type": "string" },
+        "model": { "type": "string" },
+        "provider": { "type": "string" },
+        "repo_commit": { "type": "string" },
+        "dataset_version": { "type": "string" },
+        "question_bank_version": { "type": "string" }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "question_count": { "type": "integer" },
+        "success_rate": { "type": "number" },
+        "governance_correctness_rate": { "type": "number" },
+        "median_loops": { "type": "number" },
+        "p95_loops": { "type": "number" },
+        "total_estimated_cost_usd": { "type": "number" },
+        "median_latency_ms": { "type": "number" },
+        "p95_latency_ms": { "type": "number" }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "question", "outcome"],
+        "properties": {
+          "id": { "type": "string" },
+          "question": { "type": "string" },
+          "actor_id": { "type": "string" },
+          "outcome": { "type": "string" },
+          "loops": { "type": "integer" },
+          "input_tokens": { "type": "integer" },
+          "output_tokens": { "type": "integer" },
+          "estimated_cost_usd": { "type": "number" },
+          "latency_ms": { "type": "number" },
+          "failure_class": { "type": "string" },
+          "trace_ref": { "type": "string" }
+        }
+      }
+    }
+  }
+}
