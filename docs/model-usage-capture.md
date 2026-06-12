@@ -53,3 +53,7 @@ Raw traces must redact:
 - personally sensitive payload values if introduced later
 
 The GTM benchmark currently uses synthetic showcase data, which makes trace publication easier, but the redaction path should still be explicit.
+
+## Current implementation
+
+See `runners/python/model-usage-proxy.md` for the first dependency-free OpenAI-compatible proxy implementation.
