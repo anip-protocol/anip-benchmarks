@@ -22,6 +22,19 @@ The first benchmark track is the GTM Agent workload:
 | `implementations/raw-tools` | Direct tool/API-calling baseline without service-owned governance semantics. |
 | `implementations/skills-recipes` | Consumer-side skills, recipes, or workflow instructions layered on top of tools. |
 
+## Current runnable lane
+
+The ANIP lane can now run against the existing GTM release-gate harness and emit the shared benchmark report envelope.
+
+Start with:
+
+```bash
+python3 runners/python/model_usage_proxy.py --help
+python3 runners/python/run_gtm_anip_benchmark.py --help
+```
+
+For the end-to-end GTM ANIP lane flow, see `docs/anip-lane-runner.md`.
+
 ## Metrics
 
 Every run should produce a machine-readable report containing:
