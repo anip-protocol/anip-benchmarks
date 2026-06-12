@@ -1,0 +1,115 @@
+{
+  "benchmark": "gtm-agent-490",
+  "counts": {
+    "core_350": 350,
+    "total": 490,
+    "variation_140_v3": 140
+  },
+  "files": [
+    {
+      "bank": "core-350",
+      "count": 50,
+      "phase": 1,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/question-banks/phase1-question-bank.json",
+      "target": "scenarios/gtm-agent/questions/core-350/phase1-question-bank.json"
+    },
+    {
+      "bank": "core-350",
+      "count": 50,
+      "phase": 2,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/question-banks/phase2-question-bank.json",
+      "target": "scenarios/gtm-agent/questions/core-350/phase2-question-bank.json"
+    },
+    {
+      "bank": "core-350",
+      "count": 50,
+      "phase": 3,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/question-banks/phase3-question-bank.json",
+      "target": "scenarios/gtm-agent/questions/core-350/phase3-question-bank.json"
+    },
+    {
+      "bank": "core-350",
+      "count": 50,
+      "phase": 4,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/question-banks/phase4-question-bank.json",
+      "target": "scenarios/gtm-agent/questions/core-350/phase4-question-bank.json"
+    },
+    {
+      "bank": "core-350",
+      "count": 50,
+      "phase": 5,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/question-banks/phase5-question-bank.json",
+      "target": "scenarios/gtm-agent/questions/core-350/phase5-question-bank.json"
+    },
+    {
+      "bank": "core-350",
+      "count": 50,
+      "phase": 6,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/question-banks/phase6-question-bank.json",
+      "target": "scenarios/gtm-agent/questions/core-350/phase6-question-bank.json"
+    },
+    {
+      "bank": "core-350",
+      "count": 50,
+      "phase": 7,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/question-banks/phase7-question-bank.json",
+      "target": "scenarios/gtm-agent/questions/core-350/phase7-question-bank.json"
+    },
+    {
+      "bank": "variation-140-v3",
+      "count": 20,
+      "phase": 1,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/variation-question-banks-v3/phase1-variation-bank-20.json",
+      "target": "scenarios/gtm-agent/questions/variation-140-v3/phase1-variation-bank-20.json"
+    },
+    {
+      "bank": "variation-140-v3",
+      "count": 20,
+      "phase": 2,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/variation-question-banks-v3/phase2-variation-bank-20.json",
+      "target": "scenarios/gtm-agent/questions/variation-140-v3/phase2-variation-bank-20.json"
+    },
+    {
+      "bank": "variation-140-v3",
+      "count": 20,
+      "phase": 3,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/variation-question-banks-v3/phase3-variation-bank-20.json",
+      "target": "scenarios/gtm-agent/questions/variation-140-v3/phase3-variation-bank-20.json"
+    },
+    {
+      "bank": "variation-140-v3",
+      "count": 20,
+      "phase": 4,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/variation-question-banks-v3/phase4-variation-bank-20.json",
+      "target": "scenarios/gtm-agent/questions/variation-140-v3/phase4-variation-bank-20.json"
+    },
+    {
+      "bank": "variation-140-v3",
+      "count": 20,
+      "phase": 5,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/variation-question-banks-v3/phase5-variation-bank-20.json",
+      "target": "scenarios/gtm-agent/questions/variation-140-v3/phase5-variation-bank-20.json"
+    },
+    {
+      "bank": "variation-140-v3",
+      "count": 20,
+      "phase": 6,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/variation-question-banks-v3/phase6-variation-bank-20.json",
+      "target": "scenarios/gtm-agent/questions/variation-140-v3/phase6-variation-bank-20.json"
+    },
+    {
+      "bank": "variation-140-v3",
+      "count": 20,
+      "phase": 7,
+      "source": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/variation-question-banks-v3/phase7-variation-bank-20.json",
+      "target": "scenarios/gtm-agent/questions/variation-140-v3/phase7-variation-bank-20.json"
+    }
+  ],
+  "schema_version": "anip-benchmarks/question-bank/v1",
+  "source": {
+    "anip_commit": "32f12b12234698a662bf528e5835f8dd9e6881c2",
+    "anip_root": "/Users/samirski/Development/ANIP",
+    "core_path": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/question-banks",
+    "variation_path": "/Users/samirski/Development/ANIP/docs/examples/gtm-showcase/variation-question-banks-v3"
+  }
+}
